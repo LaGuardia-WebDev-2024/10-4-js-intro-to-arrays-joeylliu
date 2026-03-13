@@ -21,6 +21,16 @@ text("My favorite fruits" + myFruits.length + "not in any order", 100, 300);
     text("🍽", i, 370)
   }
 
+var fruitsNum = 0;
+while(fruitsNum < myFruits.length) {
+  text(myFruits[fruitsNum], 10, 30+fruitsNum*30);
+  fruitsNum++;
+}
+ 
+for(var fruitsNum = 0; fruitsNum < myFruits.length; fruitsNum++)
+{
+    text(myFruits[fruitsNum], 80, 30+fruitsNum*30);
+}
 
 };
 
